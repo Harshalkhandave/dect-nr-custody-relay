@@ -1,0 +1,630 @@
+===== run E1_custody_D030_r07 source start 2026-10-13T08:28:40 port=socket://HOST:7778 =====
+[08:28:42.620] >>> exp start 150
+[08:28:42.976] uart:~$ exp start 150
+[08:28:42.976] started
+[08:28:42.977] uart:~$ [00:00:22.820,678] <inf> app: START: node=44720 role=source count=150 custody=1 epoch=23005 time=22820 time_us=22820526
+[08:28:43.002] uart:~$ [00:00:22.820,983] <inf> app: STORED: node=44720 seq=0 src=44720 class=tel depth=1
+[08:28:43.002] uart:~$ [00:00:22.821,136] <inf> app: LINK_STATE: node=44720 next=56992 old=DOWN new=PROBING reason=t_probe time=22820 time_us=22820984
+[08:28:43.023] uart:~$ [00:00:22.821,319] <inf> app: TX: node=44720 type=PROBE seq=1 next=56992 epoch=23005 time=22820 time_us=22821167
+[08:28:43.026] uart:~$ [00:00:22.821,441] <inf> app: run started role=source dest=14402
+[08:28:43.181] uart:~$ [00:00:22.836,608] <inf> app: ACK_RX: node=44720 status=PROBE_REPLY seq=1 from=56992 rtt_ms=8 rtt_us=8393 class=tel
+[08:28:43.393] uart:~$ uart:~$ uart:~$ [00:00:23.037,414] <inf> app: TX: node=44720 type=PROBE seq=2 next=56992 epoch=23005 time=23037 time_us=23037292
+[08:28:43.393] uart:~$ [00:00:23.052,734] <inf> app: ACK_RX: node=44720 status=PROBE_REPLY seq=2 from=56992 rtt_ms=8 rtt_us=8392 class=tel
+[08:28:43.416] uart:~$ uart:~$ [00:00:23.253,601] <inf> app: TX: node=44720 type=PROBE seq=3 next=56992 epoch=23005 time=23253 time_us=23253479
+[08:28:43.416] uart:~$ [00:00:23.268,859] <inf> app: ACK_RX: node=44720 status=PROBE_REPLY seq=3 from=56992 rtt_ms=8 rtt_us=8362 class=tel
+[08:28:43.439] uart:~$ [00:00:23.269,012] <inf> app: LINK_STATE: node=44720 next=56992 old=PROBING new=UP reason=probes time=23268 time_us=23268890
+[08:28:43.464] uart:~$ [00:00:23.304,229] <inf> app: TX: node=44720 type=DATA seq=0 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=23303 time_us=23304047
+[08:28:43.673] uart:~$ uart:~$ uart:~$ [00:00:23.320,037] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=0 from=56992 rtt_ms=8 rtt_us=8850 class=tel
+[08:28:43.943] uart:~$ uart:~$ [00:00:23.786,529] <inf> app: RX: node=44720 type=DATA seq=0 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.5 class=tel epoch=23005 time=23786 time_us=23786316
+[08:28:43.965] uart:~$ [00:00:23.821,655] <inf> app: STORED: node=44720 seq=1 src=44720 class=tel depth=1
+[08:28:44.033] uart:~$ [00:00:23.822,021] <inf> app: TX: node=44720 type=DATA seq=1 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=23821 time_us=23821838
+[08:28:44.034] uart:~$ [00:00:23.837,677] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=1 from=56992 rtt_ms=9 rtt_us=8728 class=tel
+[08:28:44.247] uart:~$ uart:~$ uart:~$ [00:00:23.873,626] <inf> app: RX: node=44720 type=DATA seq=1 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.5 class=tel epoch=23005 time=23873 time_us=23873444
+[08:28:44.979] uart:~$ uart:~$ [00:00:24.821,838] <inf> app: STORED: node=44720 seq=2 src=44720 class=tel depth=1
+[08:28:45.012] uart:~$ [00:00:24.822,235] <inf> app: TX: node=44720 type=DATA seq=2 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=24821 time_us=24822021
+[08:28:45.012] uart:~$ [00:00:24.837,829] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=2 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:28:45.226] uart:~$ uart:~$ [00:00:24.873,779] <inf> app: RX: node=44720 type=DATA seq=2 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=24873 time_us=24873596
+[08:28:45.977] uart:~$ uart:~$ [00:00:25.821,990] <inf> app: STORED: node=44720 seq=3 src=44720 class=tel depth=1
+[08:28:46.011] uart:~$ [00:00:25.822,387] <inf> app: TX: node=44720 type=DATA seq=3 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=25821 time_us=25822174
+[08:28:46.011] uart:~$ [00:00:25.837,982] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=3 from=56992 rtt_ms=8 rtt_us=8697 class=tel
+[08:28:46.223] uart:~$ uart:~$ [00:00:25.872,924] <inf> app: RX: node=44720 type=DATA seq=3 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.5 class=tel epoch=23005 time=25872 time_us=25872742
+[08:28:46.978] uart:~$ uart:~$ [00:00:26.821,136] <inf> app: STORED: node=44720 seq=4 src=44720 class=tel depth=1
+[08:28:47.010] uart:~$ [00:00:26.821,533] <inf> app: TX: node=44720 type=DATA seq=4 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=26820 time_us=26821320
+[08:28:47.011] uart:~$ [00:00:26.837,127] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=4 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:28:47.216] uart:~$ uart:~$ [00:00:26.872,100] <inf> app: RX: node=44720 type=DATA seq=4 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.5 class=tel epoch=23005 time=26871 time_us=26871887
+[08:28:47.979] uart:~$ uart:~$ [00:00:27.821,258] <inf> app: STORED: node=44720 seq=5 src=44720 class=tel depth=1
+[08:28:48.011] uart:~$ [00:00:27.821,655] <inf> app: TX: node=44720 type=DATA seq=5 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=27821 time_us=27821472
+[08:28:48.011] uart:~$ [00:00:27.837,280] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=5 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:28:48.213] uart:~$ uart:~$ [00:00:27.873,291] <inf> app: RX: node=44720 type=DATA seq=5 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.5 class=tel epoch=23005 time=27873 time_us=27873077
+[08:28:48.977] uart:~$ uart:~$ [00:00:28.821,472] <inf> app: STORED: node=44720 seq=6 src=44720 class=tel depth=1
+[08:28:49.016] uart:~$ [00:00:28.821,868] <inf> app: TX: node=44720 type=DATA seq=6 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=28821 time_us=28821655
+[08:28:49.016] uart:~$ [00:00:28.837,493] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=6 from=56992 rtt_ms=9 rtt_us=8728 class=tel
+[08:28:49.225] uart:~$ uart:~$ [00:00:28.873,443] <inf> app: RX: node=44720 type=DATA seq=6 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=28873 time_us=28873230
+[08:28:49.977] uart:~$ uart:~$ [00:00:29.821,594] <inf> app: STORED: node=44720 seq=7 src=44720 class=tel depth=1
+[08:28:50.011] uart:~$ [00:00:29.821,990] <inf> app: TX: node=44720 type=DATA seq=7 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=29821 time_us=29821808
+[08:28:50.011] uart:~$ [00:00:29.837,615] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=7 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:28:50.226] uart:~$ uart:~$ [00:00:29.873,565] <inf> app: RX: node=44720 type=DATA seq=7 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=29873 time_us=29873352
+[08:28:50.978] uart:~$ uart:~$ [00:00:30.821,716] <inf> app: STORED: node=44720 seq=8 src=44720 class=tel depth=1
+[08:28:51.018] uart:~$ [00:00:30.822,113] <inf> app: TX: node=44720 type=DATA seq=8 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=30821 time_us=30821930
+[08:28:51.018] uart:~$ [00:00:30.837,738] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=8 from=56992 rtt_ms=9 rtt_us=8667 class=tel
+[08:28:51.225] uart:~$ uart:~$ [00:00:30.873,687] <inf> app: RX: node=44720 type=DATA seq=8 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=30873 time_us=30873474
+[08:28:51.977] uart:~$ uart:~$ [00:00:31.821,868] <inf> app: STORED: node=44720 seq=9 src=44720 class=tel depth=1
+[08:28:52.012] uart:~$ [00:00:31.822,265] <inf> app: TX: node=44720 type=DATA seq=9 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=31821 time_us=31822052
+[08:28:52.012] uart:~$ [00:00:31.837,860] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=9 from=56992 rtt_ms=8 rtt_us=8697 class=tel
+[08:28:52.221] uart:~$ uart:~$ [00:00:31.873,870] <inf> app: RX: node=44720 type=DATA seq=9 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=31873 time_us=31873657
+[08:28:52.978] uart:~$ uart:~$ [00:00:32.822,052] <inf> app: STORED: node=44720 seq=10 src=44720 class=tel depth=1
+[08:28:53.002] uart:~$ [00:00:32.822,448] <inf> app: TX: node=44720 type=DATA seq=10 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=32821 time_us=32822235
+[08:28:53.002] uart:~$ [00:00:32.838,073] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=10 from=56992 rtt_ms=8 rtt_us=8697 class=tel
+[08:28:53.213] uart:~$ [00:00:32.873,046] <inf> app: RX: node=44720 type=DATA seq=10 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=32872 time_us=32872864
+[08:28:53.979] uart:~$ uart:~$ uart:~$ [00:00:33.821,197] <inf> app: STORED: node=44720 seq=11 src=44720 class=tel depth=1
+[08:28:54.011] uart:~$ [00:00:33.821,594] <inf> app: TX: node=44720 type=DATA seq=11 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=33820 time_us=33821411
+[08:28:54.011] uart:~$ [00:00:33.837,219] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=11 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:28:54.226] uart:~$ uart:~$ [00:00:33.873,199] <inf> app: RX: node=44720 type=DATA seq=11 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=33872 time_us=33873016
+[08:28:54.977] uart:~$ uart:~$ [00:00:34.821,350] <inf> app: STORED: node=44720 seq=12 src=44720 class=tel depth=1
+[08:28:55.011] uart:~$ [00:00:34.821,746] <inf> app: TX: node=44720 type=DATA seq=12 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=34821 time_us=34821564
+[08:28:55.011] uart:~$ [00:00:34.837,371] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=12 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:28:55.222] uart:~$ uart:~$ [00:00:34.873,352] <inf> app: RX: node=44720 type=DATA seq=12 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=34873 time_us=34873138
+[08:28:55.977] uart:~$ uart:~$ [00:00:35.821,502] <inf> app: STORED: node=44720 seq=13 src=44720 class=tel depth=1
+[08:28:56.011] uart:~$ [00:00:35.821,899] <inf> app: TX: node=44720 type=DATA seq=13 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=35821 time_us=35821716
+[08:28:56.011] uart:~$ [00:00:35.837,524] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=13 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:28:56.216] uart:~$ uart:~$ [00:00:35.873,474] <inf> app: RX: node=44720 type=DATA seq=13 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=35873 time_us=35873260
+[08:28:56.979] uart:~$ uart:~$ [00:00:36.821,624] <inf> app: STORED: node=44720 seq=14 src=44720 class=tel depth=1
+[08:28:57.012] uart:~$ [00:00:36.822,021] <inf> app: TX: node=44720 type=DATA seq=14 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=36821 time_us=36821838
+[08:28:57.012] uart:~$ [00:00:36.837,646] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=14 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:28:57.212] uart:~$ uart:~$ [00:00:36.873,596] <inf> app: RX: node=44720 type=DATA seq=14 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=36873 time_us=36873383
+[08:28:57.978] uart:~$ uart:~$ [00:00:37.821,777] <inf> app: STORED: node=44720 seq=15 src=44720 class=tel depth=1
+[08:28:58.012] uart:~$ [00:00:37.822,174] <inf> app: TX: node=44720 type=DATA seq=15 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=37821 time_us=37821991
+[08:28:58.012] uart:~$ [00:00:37.837,799] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=15 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:28:58.223] uart:~$ uart:~$ [00:00:37.873,809] <inf> app: RX: node=44720 type=DATA seq=15 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=37873 time_us=37873596
+[08:28:58.979] uart:~$ uart:~$ [00:00:38.821,990] <inf> app: STORED: node=44720 seq=16 src=44720 class=tel depth=1
+[08:28:59.011] uart:~$ [00:00:38.822,387] <inf> app: TX: node=44720 type=DATA seq=16 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=38821 time_us=38822205
+[08:28:59.011] uart:~$ [00:00:38.838,012] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=16 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:28:59.216] uart:~$ uart:~$ [00:00:38.872,985] <inf> app: RX: node=44720 type=DATA seq=16 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=38872 time_us=38872742
+[08:28:59.978] uart:~$ uart:~$ [00:00:39.821,166] <inf> app: STORED: node=44720 seq=17 src=44720 class=tel depth=1
+[08:29:00.011] uart:~$ [00:00:39.821,563] <inf> app: TX: node=44720 type=DATA seq=17 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=39820 time_us=39821350
+[08:29:00.011] uart:~$ [00:00:39.837,158] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=17 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:29:00.211] uart:~$ uart:~$ [00:00:39.873,107] <inf> app: RX: node=44720 type=DATA seq=17 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=39872 time_us=39872894
+[08:29:00.977] uart:~$ uart:~$ [00:00:40.821,258] <inf> app: STORED: node=44720 seq=18 src=44720 class=tel depth=1
+[08:29:01.012] uart:~$ [00:00:40.821,655] <inf> app: TX: node=44720 type=DATA seq=18 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=40821 time_us=40821472
+[08:29:01.012] uart:~$ [00:00:40.837,280] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=18 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:29:01.222] uart:~$ uart:~$ [00:00:40.873,229] <inf> app: RX: node=44720 type=DATA seq=18 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=40872 time_us=40873016
+[08:29:01.977] uart:~$ uart:~$ [00:00:41.821,411] <inf> app: STORED: node=44720 seq=19 src=44720 class=tel depth=1
+[08:29:02.012] uart:~$ [00:00:41.821,807] <inf> app: TX: node=44720 type=DATA seq=19 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=41821 time_us=41821625
+[08:29:02.012] uart:~$ [00:00:41.837,432] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=19 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:29:02.219] uart:~$ uart:~$ [00:00:41.873,413] <inf> app: RX: node=44720 type=DATA seq=19 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.5 class=tel epoch=23005 time=41873 time_us=41873230
+[08:29:02.977] uart:~$ uart:~$ [00:00:42.821,594] <inf> app: STORED: node=44720 seq=20 src=44720 class=tel depth=1
+[08:29:03.011] uart:~$ [00:00:42.821,990] <inf> app: TX: node=44720 type=DATA seq=20 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=42821 time_us=42821808
+[08:29:03.011] uart:~$ [00:00:42.837,615] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=20 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:29:03.215] uart:~$ uart:~$ [00:00:42.873,596] <inf> app: RX: node=44720 type=DATA seq=20 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=42873 time_us=42873352
+[08:29:03.977] uart:~$ uart:~$ [00:00:43.821,716] <inf> app: STORED: node=44720 seq=21 src=44720 class=tel depth=1
+[08:29:04.015] uart:~$ [00:00:43.822,113] <inf> app: TX: node=44720 type=DATA seq=21 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=43821 time_us=43821930
+[08:29:04.015] uart:~$ [00:00:43.837,738] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=21 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:29:04.226] uart:~$ uart:~$ [00:00:43.873,687] <inf> app: RX: node=44720 type=DATA seq=21 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=43873 time_us=43873474
+[08:29:04.977] uart:~$ uart:~$ [00:00:44.821,838] <inf> app: STORED: node=44720 seq=22 src=44720 class=tel depth=1
+[08:29:05.012] uart:~$ [00:00:44.822,235] <inf> app: TX: node=44720 type=DATA seq=22 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=44821 time_us=44822052
+[08:29:05.012] uart:~$ [00:00:44.837,860] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=22 from=56992 rtt_ms=8 rtt_us=8697 class=tel
+[08:29:05.225] uart:~$ uart:~$ [00:00:44.873,809] <inf> app: RX: node=44720 type=DATA seq=22 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=44873 time_us=44873596
+[08:29:05.977] uart:~$ uart:~$ [00:00:45.821,960] <inf> app: STORED: node=44720 seq=23 src=44720 class=tel depth=1
+[08:29:06.011] uart:~$ [00:00:45.822,357] <inf> app: TX: node=44720 type=DATA seq=23 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=45821 time_us=45822174
+[08:29:06.011] uart:~$ [00:00:45.837,982] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=23 from=56992 rtt_ms=8 rtt_us=8697 class=tel
+[08:29:06.220] uart:~$ uart:~$ [00:00:45.872,985] <inf> app: RX: node=44720 type=DATA seq=23 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=45872 time_us=45872772
+[08:29:06.977] uart:~$ uart:~$ [00:00:46.821,136] <inf> app: STORED: node=44720 seq=24 src=44720 class=tel depth=1
+[08:29:07.010] uart:~$ [00:00:46.821,533] <inf> app: TX: node=44720 type=DATA seq=24 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=46820 time_us=46821350
+[08:29:07.010] uart:~$ [00:00:46.837,158] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=24 from=56992 rtt_ms=8 rtt_us=8697 class=tel
+[08:29:07.225] uart:~$ uart:~$ [00:00:46.872,131] <inf> app: RX: node=44720 type=DATA seq=24 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=46871 time_us=46871887
+[08:29:07.978] uart:~$ uart:~$ [00:00:47.821,289] <inf> app: STORED: node=44720 seq=25 src=44720 class=tel depth=1
+[08:29:08.012] uart:~$ [00:00:47.821,685] <inf> app: TX: node=44720 type=DATA seq=25 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=47821 time_us=47821503
+[08:29:08.012] uart:~$ [00:00:47.837,310] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=25 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:29:08.225] uart:~$ uart:~$ [00:00:47.873,260] <inf> app: RX: node=44720 type=DATA seq=25 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=47873 time_us=47873077
+[08:29:08.977] uart:~$ uart:~$ [00:00:48.821,472] <inf> app: STORED: node=44720 seq=26 src=44720 class=tel depth=1
+[08:29:09.011] uart:~$ [00:00:48.821,868] <inf> app: TX: node=44720 type=DATA seq=26 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=48821 time_us=48821655
+[08:29:09.011] uart:~$ [00:00:48.837,463] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=26 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:29:09.224] uart:~$ uart:~$ [00:00:48.873,413] <inf> app: RX: node=44720 type=DATA seq=26 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=48873 time_us=48873230
+[08:29:09.977] uart:~$ uart:~$ [00:00:49.821,624] <inf> app: STORED: node=44720 seq=27 src=44720 class=tel depth=1
+[08:29:10.011] uart:~$ [00:00:49.822,021] <inf> app: TX: node=44720 type=DATA seq=27 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=49821 time_us=49821808
+[08:29:10.011] uart:~$ [00:00:49.837,615] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=27 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:29:10.219] uart:~$ uart:~$ [00:00:49.873,626] <inf> app: RX: node=44720 type=DATA seq=27 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=49873 time_us=49873413
+[08:29:10.978] uart:~$ uart:~$ [00:00:50.821,807] <inf> app: STORED: node=44720 seq=28 src=44720 class=tel depth=1
+[08:29:11.012] uart:~$ [00:00:50.822,204] <inf> app: TX: node=44720 type=DATA seq=28 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=50821 time_us=50821991
+[08:29:11.012] uart:~$ [00:00:50.837,799] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=28 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:29:11.218] uart:~$ uart:~$ [00:00:50.873,779] <inf> app: RX: node=44720 type=DATA seq=28 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=50873 time_us=50873535
+[08:29:11.977] uart:~$ uart:~$ [00:00:51.821,929] <inf> app: STORED: node=44720 seq=29 src=44720 class=tel depth=1
+[08:29:12.012] uart:~$ [00:00:51.822,326] <inf> app: TX: node=44720 type=DATA seq=29 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=51821 time_us=51822144
+[08:29:12.012] uart:~$ [00:00:51.837,951] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=29 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:29:12.216] uart:~$ uart:~$ [00:00:51.873,901] <inf> app: RX: node=44720 type=DATA seq=29 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=51873 time_us=51873718
+[08:29:12.976] uart:~$ uart:~$ [00:00:52.821,105] <inf> app: STORED: node=44720 seq=30 src=44720 class=tel depth=1
+[08:29:13.010] uart:~$ [00:00:52.821,502] <inf> app: TX: node=44720 type=DATA seq=30 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=52820 time_us=52821289
+[08:29:13.010] uart:~$ [00:00:52.837,097] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=30 from=56992 rtt_ms=8 rtt_us=8697 class=tel
+[08:29:13.207] uart:~$ uart:~$ [00:00:52.872,131] <inf> app: RX: node=44720 type=DATA seq=30 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=52871 time_us=52871918
+[08:29:13.416] uart:~$ uart:~$ [00:00:53.069,702] <inf> app: RX: node=44720 type=DATA seq=30 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.5 class=tel epoch=23005 time=53069 time_us=53069489
+[08:29:13.620] uart:~$ uart:~$ [00:00:53.302,215] <inf> app: RX: node=44720 type=DATA seq=30 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=53301 time_us=53302002
+[08:29:13.823] uart:~$ uart:~$ [00:00:53.562,744] <inf> app: RX: node=44720 type=DATA seq=30 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=53562 time_us=53562561
+[08:29:13.977] uart:~$ uart:~$ [00:00:53.821,807] <inf> app: STORED: node=44720 seq=31 src=44720 class=tel depth=1
+[08:29:14.181] uart:~$ [00:00:53.822,204] <inf> app: TX: node=44720 type=DATA seq=31 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=53821 time_us=53822021
+[08:29:14.181] uart:~$ [00:00:53.837,860] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=31 from=56992 rtt_ms=8 rtt_us=8728 class=tel
+[08:29:14.977] uart:~$ uart:~$ [00:00:54.821,655] <inf> app: STORED: node=44720 seq=32 src=44720 class=tel depth=1
+[08:29:15.180] uart:~$ [00:00:54.822,052] <inf> app: TX: node=44720 type=DATA seq=32 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=54821 time_us=54821838
+[08:29:15.180] uart:~$ [00:00:54.837,646] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=32 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:29:15.977] uart:~$ uart:~$ [00:00:55.821,411] <inf> app: STORED: node=44720 seq=33 src=44720 class=tel depth=1
+[08:29:16.191] uart:~$ [00:00:55.821,807] <inf> app: TX: node=44720 type=DATA seq=33 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=55821 time_us=55821625
+[08:29:16.192] uart:~$ [00:00:55.837,432] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=33 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:29:16.977] uart:~$ uart:~$ [00:00:56.821,258] <inf> app: STORED: node=44720 seq=34 src=44720 class=tel depth=1
+[08:29:17.186] uart:~$ [00:00:56.821,655] <inf> app: TX: node=44720 type=DATA seq=34 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=56821 time_us=56821442
+[08:29:17.187] uart:~$ [00:00:56.837,280] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=34 from=56992 rtt_ms=9 rtt_us=8728 class=tel
+[08:29:17.977] uart:~$ uart:~$ [00:00:57.821,990] <inf> app: STORED: node=44720 seq=35 src=44720 class=tel depth=1
+[08:29:18.180] uart:~$ [00:00:57.822,387] <inf> app: TX: node=44720 type=DATA seq=35 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=57821 time_us=57822205
+[08:29:18.181] uart:~$ [00:00:57.838,012] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=35 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:29:18.977] uart:~$ uart:~$ [00:00:58.821,746] <inf> app: STORED: node=44720 seq=36 src=44720 class=tel depth=1
+[08:29:19.178] uart:~$ [00:00:58.822,143] <inf> app: TX: node=44720 type=DATA seq=36 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=58821 time_us=58821960
+[08:29:19.178] uart:~$ [00:00:58.837,768] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=36 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:29:19.977] uart:~$ uart:~$ [00:00:59.821,502] <inf> app: STORED: node=44720 seq=37 src=44720 class=tel depth=1
+[08:29:20.192] uart:~$ [00:00:59.821,899] <inf> app: TX: node=44720 type=DATA seq=37 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=59821 time_us=59821716
+[08:29:20.193] uart:~$ [00:00:59.837,524] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=37 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:29:20.979] uart:~$ uart:~$ [00:01:00.821,350] <inf> app: STORED: node=44720 seq=38 src=44720 class=tel depth=1
+[08:29:21.191] uart:~$ [00:01:00.821,746] <inf> app: TX: node=44720 type=DATA seq=38 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=60821 time_us=60821564
+[08:29:21.191] uart:~$ [00:01:00.837,371] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=38 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:29:21.977] uart:~$ uart:~$ [00:01:01.822,021] <inf> app: STORED: node=44720 seq=39 src=44720 class=tel depth=1
+[08:29:22.129] uart:~$ [00:01:01.822,418] <inf> app: TX: node=44720 type=DATA seq=39 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=61821 time_us=61822235
+[08:29:22.129] uart:~$ uart:~$ [00:01:01.979,248] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=39 from=56992 rtt_ms=150 rtt_us=149902 class=tel
+[08:29:22.976] uart:~$ uart:~$ [00:01:02.821,044] <inf> app: STORED: node=44720 seq=40 src=44720 class=tel depth=1
+[08:29:23.178] uart:~$ [00:01:02.821,441] <inf> app: TX: node=44720 type=DATA seq=40 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=62820 time_us=62821259
+[08:29:23.178] uart:~$ [00:01:02.837,066] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=40 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:29:23.979] uart:~$ uart:~$ [00:01:03.821,868] <inf> app: STORED: node=44720 seq=41 src=44720 class=tel depth=1
+[08:29:24.179] uart:~$ [00:01:03.822,265] <inf> app: TX: node=44720 type=DATA seq=41 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=63821 time_us=63822052
+[08:29:24.179] uart:~$ [00:01:03.837,890] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=41 from=56992 rtt_ms=8 rtt_us=8697 class=tel
+[08:29:24.977] uart:~$ uart:~$ [00:01:04.821,624] <inf> app: STORED: node=44720 seq=42 src=44720 class=tel depth=1
+[08:29:25.179] uart:~$ [00:01:04.822,021] <inf> app: TX: node=44720 type=DATA seq=42 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=64821 time_us=64821838
+[08:29:25.179] uart:~$ [00:01:04.837,646] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=42 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:29:25.977] uart:~$ uart:~$ [00:01:05.821,411] <inf> app: STORED: node=44720 seq=43 src=44720 class=tel depth=1
+[08:29:26.176] uart:~$ [00:01:05.821,807] <inf> app: TX: node=44720 type=DATA seq=43 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=65821 time_us=65821625
+[08:29:26.177] uart:~$ [00:01:05.837,432] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=43 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:29:26.976] uart:~$ uart:~$ [00:01:06.821,166] <inf> app: STORED: node=44720 seq=44 src=44720 class=tel depth=1
+[08:29:27.177] uart:~$ [00:01:06.821,563] <inf> app: TX: node=44720 type=DATA seq=44 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=66820 time_us=66821381
+[08:29:27.177] uart:~$ [00:01:06.837,188] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=44 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:29:27.977] uart:~$ uart:~$ [00:01:07.821,929] <inf> app: STORED: node=44720 seq=45 src=44720 class=tel depth=1
+[08:29:28.181] uart:~$ [00:01:07.822,326] <inf> app: TX: node=44720 type=DATA seq=45 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=67821 time_us=67822144
+[08:29:28.181] uart:~$ [00:01:07.837,951] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=45 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:29:28.977] uart:~$ uart:~$ [00:01:08.821,716] <inf> app: STORED: node=44720 seq=46 src=44720 class=tel depth=1
+[08:29:29.180] uart:~$ [00:01:08.822,113] <inf> app: TX: node=44720 type=DATA seq=46 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=68821 time_us=68821930
+[08:29:29.180] uart:~$ [00:01:08.837,738] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=46 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:29:29.977] uart:~$ uart:~$ [00:01:09.821,533] <inf> app: STORED: node=44720 seq=47 src=44720 class=tel depth=1
+[08:29:30.176] uart:~$ [00:01:09.821,929] <inf> app: TX: node=44720 type=DATA seq=47 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=69821 time_us=69821716
+[08:29:30.176] uart:~$ [00:01:09.837,554] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=47 from=56992 rtt_ms=9 rtt_us=8728 class=tel
+[08:29:30.976] uart:~$ uart:~$ [00:01:10.821,258] <inf> app: STORED: node=44720 seq=48 src=44720 class=tel depth=1
+[08:29:31.187] uart:~$ [00:01:10.821,655] <inf> app: TX: node=44720 type=DATA seq=48 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=70821 time_us=70821472
+[08:29:31.187] uart:~$ [00:01:10.837,280] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=48 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:29:31.978] uart:~$ uart:~$ [00:01:11.822,021] <inf> app: STORED: node=44720 seq=49 src=44720 class=tel depth=1
+[08:29:32.179] uart:~$ [00:01:11.822,418] <inf> app: TX: node=44720 type=DATA seq=49 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=71821 time_us=71822235
+[08:29:32.179] uart:~$ [00:01:11.838,043] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=49 from=56992 rtt_ms=8 rtt_us=8697 class=tel
+[08:29:32.977] uart:~$ uart:~$ [00:01:12.821,807] <inf> app: STORED: node=44720 seq=50 src=44720 class=tel depth=1
+[08:29:33.189] uart:~$ [00:01:12.822,174] <inf> app: TX: node=44720 type=DATA seq=50 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=72821 time_us=72821991
+[08:29:33.189] uart:~$ [00:01:12.837,829] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=50 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:29:33.977] uart:~$ uart:~$ [00:01:13.821,563] <inf> app: STORED: node=44720 seq=51 src=44720 class=tel depth=1
+[08:29:34.187] uart:~$ [00:01:13.821,960] <inf> app: TX: node=44720 type=DATA seq=51 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=73821 time_us=73821777
+[08:29:34.187] uart:~$ [00:01:13.837,585] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=51 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:29:34.977] uart:~$ uart:~$ [00:01:14.821,319] <inf> app: STORED: node=44720 seq=52 src=44720 class=tel depth=1
+[08:29:35.186] uart:~$ [00:01:14.821,716] <inf> app: TX: node=44720 type=DATA seq=52 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=74821 time_us=74821533
+[08:29:35.186] uart:~$ [00:01:14.837,341] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=52 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:29:35.976] uart:~$ uart:~$ [00:01:15.821,014] <inf> app: STORED: node=44720 seq=53 src=44720 class=tel depth=1
+[08:29:36.067] uart:~$ [00:01:15.821,411] <inf> app: TX: node=44720 type=DATA seq=53 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=75820 time_us=75821228
+[08:29:36.068] uart:~$ uart:~$ [00:01:15.915,252] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=53 from=56992 rtt_ms=87 rtt_us=86914 class=tel
+[08:29:36.976] uart:~$ uart:~$ [00:01:16.821,075] <inf> app: STORED: node=44720 seq=54 src=44720 class=tel depth=1
+[08:29:37.189] uart:~$ [00:01:16.821,472] <inf> app: TX: node=44720 type=DATA seq=54 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=76820 time_us=76821289
+[08:29:37.190] uart:~$ [00:01:16.837,097] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=54 from=56992 rtt_ms=8 rtt_us=8697 class=tel
+[08:29:37.977] uart:~$ uart:~$ [00:01:17.821,868] <inf> app: STORED: node=44720 seq=55 src=44720 class=tel depth=1
+[08:29:38.182] uart:~$ [00:01:17.822,265] <inf> app: TX: node=44720 type=DATA seq=55 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=77821 time_us=77822083
+[08:29:38.182] uart:~$ [00:01:17.837,890] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=55 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:29:38.976] uart:~$ uart:~$ [00:01:18.821,655] <inf> app: STORED: node=44720 seq=56 src=44720 class=tel depth=1
+[08:29:39.178] uart:~$ [00:01:18.822,052] <inf> app: TX: node=44720 type=DATA seq=56 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=78821 time_us=78821869
+[08:29:39.178] uart:~$ [00:01:18.837,677] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=56 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:29:39.977] uart:~$ uart:~$ [00:01:19.821,441] <inf> app: STORED: node=44720 seq=57 src=44720 class=tel depth=1
+[08:29:40.178] uart:~$ [00:01:19.821,838] <inf> app: TX: node=44720 type=DATA seq=57 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=79821 time_us=79821655
+[08:29:40.178] uart:~$ [00:01:19.837,463] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=57 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:29:40.983] uart:~$ uart:~$ [00:01:20.821,289] <inf> app: STORED: node=44720 seq=58 src=44720 class=tel depth=1
+[08:29:41.185] uart:~$ [00:01:20.821,685] <inf> app: TX: node=44720 type=DATA seq=58 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=80821 time_us=80821503
+[08:29:41.185] uart:~$ [00:01:20.837,310] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=58 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:29:41.975] uart:~$ uart:~$ [00:01:21.821,044] <inf> app: STORED: node=44720 seq=59 src=44720 class=tel depth=1
+[08:29:42.178] uart:~$ [00:01:21.821,441] <inf> app: TX: node=44720 type=DATA seq=59 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=81820 time_us=81821259
+[08:29:42.178] uart:~$ [00:01:21.837,066] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=59 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:29:42.977] uart:~$ uart:~$ [00:01:22.821,777] <inf> app: STORED: node=44720 seq=60 src=44720 class=tel depth=1
+[08:29:43.188] uart:~$ [00:01:22.822,174] <inf> app: TX: node=44720 type=DATA seq=60 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=82821 time_us=82821991
+[08:29:43.188] uart:~$ [00:01:22.837,799] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=60 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:29:43.558] uart:~$ uart:~$ [00:01:23.403,411] <inf> app: RX: node=44720 type=DATA seq=30 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=83403 time_us=83403198
+[08:29:43.602] uart:~$ [00:01:23.431,396] <inf> app: RX: node=44720 type=DATA seq=31 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.5 class=tel epoch=23005 time=83431 time_us=83431183
+[08:29:43.624] uart:~$ uart:~$ [00:01:23.458,740] <inf> app: RX: node=44720 type=DATA seq=32 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=83458 time_us=83458496
+[08:29:43.668] uart:~$ [00:01:23.487,945] <inf> app: RX: node=44720 type=DATA seq=33 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=83487 time_us=83487732
+[08:29:43.692] uart:~$ uart:~$ [00:01:23.516,113] <inf> app: RX: node=44720 type=DATA seq=34 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=83515 time_us=83515900
+[08:29:43.727] uart:~$ [00:01:23.544,403] <inf> app: RX: node=44720 type=DATA seq=35 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.5 class=tel epoch=23005 time=83544 time_us=83544189
+[08:29:43.727] uart:~$ uart:~$ [00:01:23.572,570] <inf> app: RX: node=44720 type=DATA seq=36 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=83572 time_us=83572357
+[08:29:43.766] uart:~$ [00:01:23.600,769] <inf> app: RX: node=44720 type=DATA seq=37 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=83600 time_us=83600555
+[08:29:43.792] uart:~$ uart:~$ [00:01:23.628,936] <inf> app: RX: node=44720 type=DATA seq=38 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.5 class=tel epoch=23005 time=83628 time_us=83628723
+[08:29:43.829] uart:~$ [00:01:23.657,226] <inf> app: RX: node=44720 type=DATA seq=39 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=83656 time_us=83657013
+[08:29:43.852] uart:~$ uart:~$ [00:01:23.685,394] <inf> app: RX: node=44720 type=DATA seq=40 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=83685 time_us=83685150
+[08:29:43.892] uart:~$ [00:01:23.712,646] <inf> app: RX: node=44720 type=DATA seq=41 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=83712 time_us=83712433
+[08:29:43.916] uart:~$ uart:~$ [00:01:23.741,851] <inf> app: RX: node=44720 type=DATA seq=42 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=83741 time_us=83741638
+[08:29:43.954] uart:~$ [00:01:23.770,080] <inf> app: RX: node=44720 type=DATA seq=43 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.5 class=tel epoch=23005 time=83769 time_us=83769836
+[08:29:43.954] uart:~$ uart:~$ [00:01:23.798,187] <inf> app: RX: node=44720 type=DATA seq=44 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=83797 time_us=83798004
+[08:29:43.978] uart:~$ [00:01:23.821,533] <inf> app: STORED: node=44720 seq=61 src=44720 class=tel depth=1
+[08:29:44.002] uart:~$ [00:01:23.821,929] <inf> app: TX: node=44720 type=DATA seq=61 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=83821 time_us=83821716
+[08:29:44.002] uart:~$ uart:~$ [00:01:23.848,999] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=61 from=56992 rtt_ms=20 rtt_us=20203 class=tel
+[08:29:44.203] uart:~$ [00:01:23.883,972] <inf> app: RX: node=44720 type=DATA seq=46 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.5 class=tel epoch=23005 time=83883 time_us=83883728
+[08:29:44.242] uart:~$ uart:~$ [00:01:24.086,639] <inf> app: RX: node=44720 type=DATA seq=46 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=84086 time_us=84086426
+[08:29:44.265] uart:~$ [00:01:24.107,482] <inf> app: RX: node=44720 type=DATA seq=47 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=84107 time_us=84107269
+[08:29:44.312] uart:~$ [00:01:24.136,779] <inf> app: RX: node=44720 type=DATA seq=48 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=84136 time_us=84136536
+[08:29:44.331] uart:~$ uart:~$ uart:~$ [00:01:24.164,916] <inf> app: RX: node=44720 type=DATA seq=49 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=84164 time_us=84164703
+[08:29:44.370] uart:~$ [00:01:24.193,267] <inf> app: RX: node=44720 type=DATA seq=50 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=84192 time_us=84193024
+[08:29:44.396] uart:~$ uart:~$ [00:01:24.221,343] <inf> app: RX: node=44720 type=DATA seq=51 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=84221 time_us=84221130
+[08:29:44.396] uart:~$ [00:01:24.248,626] <inf> app: RX: node=44720 type=DATA seq=52 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=84248 time_us=84248383
+[08:29:44.433] uart:~$ uart:~$ [00:01:24.277,801] <inf> app: RX: node=44720 type=DATA seq=53 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=84277 time_us=84277588
+[08:29:44.472] uart:~$ [00:01:24.306,030] <inf> app: RX: node=44720 type=DATA seq=54 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=84305 time_us=84305817
+[08:29:44.495] uart:~$ uart:~$ [00:01:24.334,197] <inf> app: RX: node=44720 type=DATA seq=55 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=84333 time_us=84333954
+[08:29:44.533] uart:~$ [00:01:24.362,487] <inf> app: RX: node=44720 type=DATA seq=56 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=84362 time_us=84362274
+[08:29:44.557] uart:~$ uart:~$ [00:01:24.389,617] <inf> app: RX: node=44720 type=DATA seq=57 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=84389 time_us=84389404
+[08:29:44.598] uart:~$ [00:01:24.418,823] <inf> app: RX: node=44720 type=DATA seq=58 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=84418 time_us=84418610
+[08:29:44.621] uart:~$ uart:~$ [00:01:24.447,052] <inf> app: RX: node=44720 type=DATA seq=59 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=84446 time_us=84446838
+[08:29:44.621] uart:~$ [00:01:24.475,189] <inf> app: RX: node=44720 type=DATA seq=60 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=84474 time_us=84474976
+[08:29:44.660] uart:~$ uart:~$ [00:01:24.503,387] <inf> app: RX: node=44720 type=DATA seq=61 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=84503 time_us=84503174
+[08:29:44.978] uart:~$ uart:~$ [00:01:24.821,594] <inf> app: STORED: node=44720 seq=62 src=44720 class=tel depth=1
+[08:29:45.011] uart:~$ [00:01:24.821,990] <inf> app: TX: node=44720 type=DATA seq=62 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=84821 time_us=84821808
+[08:29:45.011] uart:~$ [00:01:24.837,615] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=62 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:29:45.217] uart:~$ uart:~$ [00:01:24.873,596] <inf> app: RX: node=44720 type=DATA seq=62 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=84873 time_us=84873383
+[08:29:45.977] uart:~$ uart:~$ [00:01:25.821,777] <inf> app: STORED: node=44720 seq=63 src=44720 class=tel depth=1
+[08:29:46.011] uart:~$ [00:01:25.822,174] <inf> app: TX: node=44720 type=DATA seq=63 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=85821 time_us=85821960
+[08:29:46.011] uart:~$ [00:01:25.837,768] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=63 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:29:46.214] uart:~$ uart:~$ [00:01:25.873,718] <inf> app: RX: node=44720 type=DATA seq=63 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=85873 time_us=85873505
+[08:29:46.977] uart:~$ uart:~$ [00:01:26.821,868] <inf> app: STORED: node=44720 seq=64 src=44720 class=tel depth=1
+[08:29:47.011] uart:~$ [00:01:26.822,265] <inf> app: TX: node=44720 type=DATA seq=64 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=86821 time_us=86822083
+[08:29:47.011] uart:~$ [00:01:26.837,890] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=64 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:29:47.225] uart:~$ uart:~$ [00:01:26.873,809] <inf> app: RX: node=44720 type=DATA seq=64 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.5 class=tel epoch=23005 time=86873 time_us=86873627
+[08:29:47.977] uart:~$ uart:~$ [00:01:27.821,990] <inf> app: STORED: node=44720 seq=65 src=44720 class=tel depth=1
+[08:29:48.012] uart:~$ [00:01:27.822,387] <inf> app: TX: node=44720 type=DATA seq=65 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=87821 time_us=87822205
+[08:29:48.012] uart:~$ [00:01:27.838,012] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=65 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:29:48.222] uart:~$ uart:~$ [00:01:27.873,016] <inf> app: RX: node=44720 type=DATA seq=65 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=87872 time_us=87872803
+[08:29:48.977] uart:~$ uart:~$ [00:01:28.821,166] <inf> app: STORED: node=44720 seq=66 src=44720 class=tel depth=1
+[08:29:49.010] uart:~$ [00:01:28.821,563] <inf> app: TX: node=44720 type=DATA seq=66 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=88820 time_us=88821381
+[08:29:49.010] uart:~$ [00:01:28.837,188] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=66 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:29:49.217] uart:~$ uart:~$ [00:01:28.873,168] <inf> app: RX: node=44720 type=DATA seq=66 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=88872 time_us=88872955
+[08:29:49.976] uart:~$ uart:~$ [00:01:29.821,350] <inf> app: STORED: node=44720 seq=67 src=44720 class=tel depth=1
+[08:29:50.010] uart:~$ [00:01:29.821,746] <inf> app: TX: node=44720 type=DATA seq=67 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=89821 time_us=89821533
+[08:29:50.011] uart:~$ [00:01:29.837,341] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=67 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:29:50.222] uart:~$ uart:~$ [00:01:29.873,291] <inf> app: RX: node=44720 type=DATA seq=67 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=89873 time_us=89873077
+[08:29:50.976] uart:~$ uart:~$ [00:01:30.821,441] <inf> app: STORED: node=44720 seq=68 src=44720 class=tel depth=1
+[08:29:51.011] uart:~$ [00:01:30.821,838] <inf> app: TX: node=44720 type=DATA seq=68 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=90821 time_us=90821655
+[08:29:51.011] uart:~$ [00:01:30.837,463] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=68 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:29:51.217] uart:~$ uart:~$ [00:01:30.873,382] <inf> app: RX: node=44720 type=DATA seq=68 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=90873 time_us=90873199
+[08:29:51.976] uart:~$ uart:~$ [00:01:31.821,563] <inf> app: STORED: node=44720 seq=69 src=44720 class=tel depth=1
+[08:29:52.011] uart:~$ [00:01:31.821,960] <inf> app: TX: node=44720 type=DATA seq=69 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=91821 time_us=91821777
+[08:29:52.011] uart:~$ [00:01:31.837,585] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=69 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:29:52.212] uart:~$ uart:~$ [00:01:31.873,565] <inf> app: RX: node=44720 type=DATA seq=69 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=91873 time_us=91873352
+[08:29:52.979] uart:~$ uart:~$ [00:01:32.821,685] <inf> app: STORED: node=44720 seq=70 src=44720 class=tel depth=1
+[08:29:53.011] uart:~$ [00:01:32.822,082] <inf> app: TX: node=44720 type=DATA seq=70 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=92821 time_us=92821899
+[08:29:53.011] uart:~$ [00:01:32.837,707] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=70 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:29:53.220] uart:~$ uart:~$ [00:01:32.873,687] <inf> app: RX: node=44720 type=DATA seq=70 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=92873 time_us=92873444
+[08:29:53.977] uart:~$ uart:~$ [00:01:33.821,807] <inf> app: STORED: node=44720 seq=71 src=44720 class=tel depth=1
+[08:29:54.011] uart:~$ [00:01:33.822,204] <inf> app: TX: node=44720 type=DATA seq=71 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=93821 time_us=93822021
+[08:29:54.011] uart:~$ [00:01:33.837,829] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=71 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:29:54.215] uart:~$ uart:~$ [00:01:33.873,779] <inf> app: RX: node=44720 type=DATA seq=71 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=93873 time_us=93873566
+[08:29:54.978] uart:~$ uart:~$ [00:01:34.821,929] <inf> app: STORED: node=44720 seq=72 src=44720 class=tel depth=1
+[08:29:55.012] uart:~$ [00:01:34.822,326] <inf> app: TX: node=44720 type=DATA seq=72 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=94821 time_us=94822144
+[08:29:55.012] uart:~$ [00:01:34.837,951] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=72 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:29:55.226] uart:~$ uart:~$ [00:01:34.873,901] <inf> app: RX: node=44720 type=DATA seq=72 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=94873 time_us=94873688
+[08:29:55.979] uart:~$ uart:~$ [00:01:35.822,082] <inf> app: STORED: node=44720 seq=73 src=44720 class=tel depth=1
+[08:29:56.010] uart:~$ [00:01:35.822,479] <inf> app: TX: node=44720 type=DATA seq=73 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=95821 time_us=95822296
+[08:29:56.011] uart:~$ [00:01:35.838,104] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=73 from=56992 rtt_ms=8 rtt_us=8697 class=tel
+[08:29:56.211] uart:~$ uart:~$ [00:01:35.873,107] <inf> app: RX: node=44720 type=DATA seq=73 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=95872 time_us=95872894
+[08:29:56.976] uart:~$ uart:~$ [00:01:36.821,258] <inf> app: STORED: node=44720 seq=74 src=44720 class=tel depth=1
+[08:29:57.011] uart:~$ [00:01:36.821,655] <inf> app: TX: node=44720 type=DATA seq=74 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=96821 time_us=96821472
+[08:29:57.011] uart:~$ [00:01:36.837,280] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=74 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:29:57.214] uart:~$ uart:~$ [00:01:36.873,260] <inf> app: RX: node=44720 type=DATA seq=74 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=96872 time_us=96873047
+[08:29:57.976] uart:~$ uart:~$ [00:01:37.821,411] <inf> app: STORED: node=44720 seq=75 src=44720 class=tel depth=1
+[08:29:58.010] uart:~$ [00:01:37.821,807] <inf> app: TX: node=44720 type=DATA seq=75 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=97821 time_us=97821625
+[08:29:58.010] uart:~$ [00:01:37.837,432] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=75 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:29:58.210] uart:~$ uart:~$ [00:01:37.873,382] <inf> app: RX: node=44720 type=DATA seq=75 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=97873 time_us=97873169
+[08:29:58.976] uart:~$ uart:~$ [00:01:38.821,533] <inf> app: STORED: node=44720 seq=76 src=44720 class=tel depth=1
+[08:29:59.012] uart:~$ [00:01:38.821,929] <inf> app: TX: node=44720 type=DATA seq=76 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=98821 time_us=98821747
+[08:29:59.012] uart:~$ [00:01:38.837,554] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=76 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:29:59.222] uart:~$ uart:~$ [00:01:38.873,504] <inf> app: RX: node=44720 type=DATA seq=76 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=98873 time_us=98873322
+[08:29:59.976] uart:~$ uart:~$ [00:01:39.821,655] <inf> app: STORED: node=44720 seq=77 src=44720 class=tel depth=1
+[08:30:00.011] uart:~$ [00:01:39.822,052] <inf> app: TX: node=44720 type=DATA seq=77 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=99821 time_us=99821869
+[08:30:00.011] uart:~$ [00:01:39.837,677] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=77 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:30:00.218] uart:~$ uart:~$ [00:01:39.873,657] <inf> app: RX: node=44720 type=DATA seq=77 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=99873 time_us=99873444
+[08:30:00.977] uart:~$ uart:~$ [00:01:40.821,807] <inf> app: STORED: node=44720 seq=78 src=44720 class=tel depth=1
+[08:30:01.012] uart:~$ [00:01:40.822,204] <inf> app: TX: node=44720 type=DATA seq=78 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=100821 time_us=100822021
+[08:30:01.012] uart:~$ [00:01:40.837,829] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=78 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:30:01.217] uart:~$ uart:~$ [00:01:40.873,809] <inf> app: RX: node=44720 type=DATA seq=78 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=100873 time_us=100873596
+[08:30:01.977] uart:~$ uart:~$ [00:01:41.821,990] <inf> app: STORED: node=44720 seq=79 src=44720 class=tel depth=1
+[08:30:02.011] uart:~$ [00:01:41.822,387] <inf> app: TX: node=44720 type=DATA seq=79 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=101821 time_us=101822174
+[08:30:02.011] uart:~$ [00:01:41.837,982] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=79 from=56992 rtt_ms=8 rtt_us=8697 class=tel
+[08:30:02.225] uart:~$ uart:~$ [00:01:41.872,985] <inf> app: RX: node=44720 type=DATA seq=79 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=101872 time_us=101872772
+[08:30:02.975] uart:~$ uart:~$ [00:01:42.821,166] <inf> app: STORED: node=44720 seq=80 src=44720 class=tel depth=1
+[08:30:03.010] uart:~$ [00:01:42.821,563] <inf> app: TX: node=44720 type=DATA seq=80 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=102820 time_us=102821381
+[08:30:03.010] uart:~$ [00:01:42.837,188] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=80 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:30:03.223] uart:~$ uart:~$ [00:01:42.873,138] <inf> app: RX: node=44720 type=DATA seq=80 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=102872 time_us=102872925
+[08:30:03.977] uart:~$ uart:~$ [00:01:43.821,319] <inf> app: STORED: node=44720 seq=81 src=44720 class=tel depth=1
+[08:30:04.010] uart:~$ [00:01:43.821,716] <inf> app: TX: node=44720 type=DATA seq=81 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=103821 time_us=103821503
+[08:30:04.010] uart:~$ [00:01:43.837,310] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=81 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:30:04.219] uart:~$ uart:~$ [00:01:43.873,260] <inf> app: RX: node=44720 type=DATA seq=81 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=103873 time_us=103873047
+[08:30:04.976] uart:~$ uart:~$ [00:01:44.821,411] <inf> app: STORED: node=44720 seq=82 src=44720 class=tel depth=1
+[08:30:05.010] uart:~$ [00:01:44.821,807] <inf> app: TX: node=44720 type=DATA seq=82 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=104821 time_us=104821625
+[08:30:05.010] uart:~$ [00:01:44.837,432] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=82 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:30:05.216] uart:~$ uart:~$ [00:01:44.873,413] <inf> app: RX: node=44720 type=DATA seq=82 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=104873 time_us=104873199
+[08:30:05.977] uart:~$ uart:~$ [00:01:45.821,563] <inf> app: STORED: node=44720 seq=83 src=44720 class=tel depth=1
+[08:30:06.011] uart:~$ [00:01:45.821,990] <inf> app: TX: node=44720 type=DATA seq=83 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=105821 time_us=105821777
+[08:30:06.011] uart:~$ [00:01:45.837,585] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=83 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:30:06.214] uart:~$ uart:~$ [00:01:45.873,565] <inf> app: RX: node=44720 type=DATA seq=83 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=105873 time_us=105873352
+[08:30:06.976] uart:~$ uart:~$ [00:01:46.821,685] <inf> app: STORED: node=44720 seq=84 src=44720 class=tel depth=1
+[08:30:07.011] uart:~$ [00:01:46.822,082] <inf> app: TX: node=44720 type=DATA seq=84 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=106821 time_us=106821899
+[08:30:07.011] uart:~$ [00:01:46.837,707] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=84 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:30:07.222] uart:~$ uart:~$ [00:01:46.873,657] <inf> app: RX: node=44720 type=DATA seq=84 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=106873 time_us=106873444
+[08:30:07.976] uart:~$ uart:~$ [00:01:47.821,838] <inf> app: STORED: node=44720 seq=85 src=44720 class=tel depth=1
+[08:30:08.011] uart:~$ [00:01:47.822,235] <inf> app: TX: node=44720 type=DATA seq=85 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=107821 time_us=107822021
+[08:30:08.011] uart:~$ [00:01:47.837,829] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=85 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:30:08.222] uart:~$ uart:~$ [00:01:47.873,779] <inf> app: RX: node=44720 type=DATA seq=85 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=107873 time_us=107873566
+[08:30:08.976] uart:~$ uart:~$ [00:01:48.821,929] <inf> app: STORED: node=44720 seq=86 src=44720 class=tel depth=1
+[08:30:09.011] uart:~$ [00:01:48.822,326] <inf> app: TX: node=44720 type=DATA seq=86 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=108821 time_us=108822144
+[08:30:09.011] uart:~$ [00:01:48.837,982] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=86 from=56992 rtt_ms=8 rtt_us=8728 class=tel
+[08:30:09.218] uart:~$ uart:~$ [00:01:48.873,962] <inf> app: RX: node=44720 type=DATA seq=86 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=108873 time_us=108873718
+[08:30:09.976] uart:~$ uart:~$ [00:01:49.821,075] <inf> app: STORED: node=44720 seq=87 src=44720 class=tel depth=1
+[08:30:10.009] uart:~$ [00:01:49.821,472] <inf> app: TX: node=44720 type=DATA seq=87 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=109820 time_us=109821289
+[08:30:10.009] uart:~$ [00:01:49.837,097] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=87 from=56992 rtt_ms=8 rtt_us=8697 class=tel
+[08:30:10.210] uart:~$ uart:~$ [00:01:49.872,131] <inf> app: RX: node=44720 type=DATA seq=87 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=109871 time_us=109871887
+[08:30:10.976] uart:~$ uart:~$ [00:01:50.821,289] <inf> app: STORED: node=44720 seq=88 src=44720 class=tel depth=1
+[08:30:11.010] uart:~$ [00:01:50.821,685] <inf> app: TX: node=44720 type=DATA seq=88 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=110821 time_us=110821503
+[08:30:11.010] uart:~$ [00:01:50.837,310] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=88 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:30:11.222] uart:~$ uart:~$ [00:01:50.873,260] <inf> app: RX: node=44720 type=DATA seq=88 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=110873 time_us=110873047
+[08:30:11.977] uart:~$ uart:~$ [00:01:51.821,502] <inf> app: STORED: node=44720 seq=89 src=44720 class=tel depth=1
+[08:30:12.012] uart:~$ [00:01:51.821,899] <inf> app: TX: node=44720 type=DATA seq=89 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=111821 time_us=111821686
+[08:30:12.012] uart:~$ [00:01:51.837,524] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=89 from=56992 rtt_ms=9 rtt_us=8728 class=tel
+[08:30:12.225] uart:~$ uart:~$ [00:01:51.873,474] <inf> app: RX: node=44720 type=DATA seq=89 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=111873 time_us=111873260
+[08:30:12.976] uart:~$ uart:~$ [00:01:52.821,624] <inf> app: STORED: node=44720 seq=90 src=44720 class=tel depth=1
+[08:30:13.015] uart:~$ [00:01:52.822,021] <inf> app: TX: node=44720 type=DATA seq=90 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=112821 time_us=112821838
+[08:30:13.015] uart:~$ [00:01:52.837,646] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=90 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:30:13.217] uart:~$ uart:~$ [00:01:52.873,626] <inf> app: RX: node=44720 type=DATA seq=90 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=112873 time_us=112873383
+[08:30:13.976] uart:~$ uart:~$ [00:01:53.821,746] <inf> app: STORED: node=44720 seq=91 src=44720 class=tel depth=1
+[08:30:14.011] uart:~$ [00:01:53.822,143] <inf> app: TX: node=44720 type=DATA seq=91 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=113821 time_us=113821960
+[08:30:14.011] uart:~$ [00:01:53.837,768] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=91 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:30:14.212] uart:~$ uart:~$ [00:01:53.873,748] <inf> app: RX: node=44720 type=DATA seq=91 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=113873 time_us=113873535
+[08:30:14.980] uart:~$ uart:~$ [00:01:54.821,868] <inf> app: STORED: node=44720 seq=92 src=44720 class=tel depth=1
+[08:30:15.010] uart:~$ [00:01:54.822,265] <inf> app: TX: node=44720 type=DATA seq=92 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=114821 time_us=114822083
+[08:30:15.011] uart:~$ [00:01:54.837,890] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=92 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:30:15.223] uart:~$ uart:~$ [00:01:54.873,840] <inf> app: RX: node=44720 type=DATA seq=92 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=114873 time_us=114873627
+[08:30:15.977] uart:~$ uart:~$ [00:01:55.822,021] <inf> app: STORED: node=44720 seq=93 src=44720 class=tel depth=1
+[08:30:16.011] uart:~$ [00:01:55.822,418] <inf> app: TX: node=44720 type=DATA seq=93 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=115821 time_us=115822205
+[08:30:16.011] uart:~$ [00:01:55.838,012] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=93 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:30:16.219] uart:~$ uart:~$ [00:01:55.873,016] <inf> app: RX: node=44720 type=DATA seq=93 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=115872 time_us=115872803
+[08:30:16.976] uart:~$ uart:~$ [00:01:56.821,166] <inf> app: STORED: node=44720 seq=94 src=44720 class=tel depth=1
+[08:30:17.010] uart:~$ [00:01:56.821,563] <inf> app: TX: node=44720 type=DATA seq=94 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=116820 time_us=116821381
+[08:30:17.010] uart:~$ [00:01:56.837,188] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=94 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:30:17.210] uart:~$ uart:~$ [00:01:56.873,168] <inf> app: RX: node=44720 type=DATA seq=94 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=116872 time_us=116872925
+[08:30:17.976] uart:~$ uart:~$ [00:01:57.821,319] <inf> app: STORED: node=44720 seq=95 src=44720 class=tel depth=1
+[08:30:18.010] uart:~$ [00:01:57.821,716] <inf> app: TX: node=44720 type=DATA seq=95 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=117821 time_us=117821533
+[08:30:18.010] uart:~$ [00:01:57.837,341] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=95 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:30:18.212] uart:~$ uart:~$ [00:01:57.873,321] <inf> app: RX: node=44720 type=DATA seq=95 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=117873 time_us=117873108
+[08:30:18.976] uart:~$ uart:~$ [00:01:58.821,441] <inf> app: STORED: node=44720 seq=96 src=44720 class=tel depth=1
+[08:30:19.010] uart:~$ [00:01:58.821,838] <inf> app: TX: node=44720 type=DATA seq=96 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=118821 time_us=118821655
+[08:30:19.010] uart:~$ [00:01:58.837,463] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=96 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:30:19.216] uart:~$ uart:~$ [00:01:58.873,413] <inf> app: RX: node=44720 type=DATA seq=96 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=118873 time_us=118873199
+[08:30:19.975] uart:~$ uart:~$ [00:01:59.821,563] <inf> app: STORED: node=44720 seq=97 src=44720 class=tel depth=1
+[08:30:20.011] uart:~$ [00:01:59.821,960] <inf> app: TX: node=44720 type=DATA seq=97 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=119821 time_us=119821777
+[08:30:20.011] uart:~$ [00:01:59.837,585] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=97 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:30:20.225] uart:~$ uart:~$ [00:01:59.873,565] <inf> app: RX: node=44720 type=DATA seq=97 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=119873 time_us=119873352
+[08:30:20.976] uart:~$ uart:~$ [00:02:00.821,746] <inf> app: STORED: node=44720 seq=98 src=44720 class=tel depth=1
+[08:30:21.011] uart:~$ [00:02:00.822,143] <inf> app: TX: node=44720 type=DATA seq=98 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=120821 time_us=120821930
+[08:30:21.011] uart:~$ [00:02:00.837,738] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=98 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:30:21.210] uart:~$ uart:~$ [00:02:00.873,718] <inf> app: RX: node=44720 type=DATA seq=98 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=120873 time_us=120873474
+[08:30:21.976] uart:~$ uart:~$ [00:02:01.821,868] <inf> app: STORED: node=44720 seq=99 src=44720 class=tel depth=1
+[08:30:22.011] uart:~$ [00:02:01.822,265] <inf> app: TX: node=44720 type=DATA seq=99 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=121821 time_us=121822083
+[08:30:22.011] uart:~$ [00:02:01.837,890] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=99 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:30:22.224] uart:~$ uart:~$ [00:02:01.873,870] <inf> app: RX: node=44720 type=DATA seq=99 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=121873 time_us=121873657
+[08:30:22.977] uart:~$ uart:~$ [00:02:02.822,052] <inf> app: STORED: node=44720 seq=100 src=44720 class=tel depth=1
+[08:30:23.010] uart:~$ [00:02:02.822,448] <inf> app: TX: node=44720 type=DATA seq=100 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=122821 time_us=122822235
+[08:30:23.010] uart:~$ [00:02:02.838,043] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=100 from=56992 rtt_ms=8 rtt_us=8697 class=tel
+[08:30:23.221] uart:~$ uart:~$ [00:02:02.873,077] <inf> app: RX: node=44720 type=DATA seq=100 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=122872 time_us=122872833
+[08:30:23.976] uart:~$ uart:~$ [00:02:03.821,258] <inf> app: STORED: node=44720 seq=101 src=44720 class=tel depth=1
+[08:30:24.010] uart:~$ [00:02:03.821,655] <inf> app: TX: node=44720 type=DATA seq=101 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=123821 time_us=123821442
+[08:30:24.010] uart:~$ [00:02:03.837,249] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=101 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:30:24.213] uart:~$ uart:~$ [00:02:03.873,229] <inf> app: RX: node=44720 type=DATA seq=101 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=123872 time_us=123873016
+[08:30:24.978] uart:~$ uart:~$ [00:02:04.821,380] <inf> app: STORED: node=44720 seq=102 src=44720 class=tel depth=1
+[08:30:25.010] uart:~$ [00:02:04.821,807] <inf> app: TX: node=44720 type=DATA seq=102 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=124821 time_us=124821594
+[08:30:25.010] uart:~$ [00:02:04.837,402] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=102 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:30:25.226] uart:~$ uart:~$ [00:02:04.873,382] <inf> app: RX: node=44720 type=DATA seq=102 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=124873 time_us=124873138
+[08:30:25.976] uart:~$ uart:~$ [00:02:05.821,502] <inf> app: STORED: node=44720 seq=103 src=44720 class=tel depth=1
+[08:30:26.010] uart:~$ [00:02:05.821,929] <inf> app: TX: node=44720 type=DATA seq=103 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=125821 time_us=125821716
+[08:30:26.010] uart:~$ [00:02:05.837,524] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=103 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:30:26.220] uart:~$ uart:~$ [00:02:05.873,504] <inf> app: RX: node=44720 type=DATA seq=103 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=125873 time_us=125873291
+[08:30:26.976] uart:~$ uart:~$ [00:02:06.821,685] <inf> app: STORED: node=44720 seq=104 src=44720 class=tel depth=1
+[08:30:27.011] uart:~$ [00:02:06.822,082] <inf> app: TX: node=44720 type=DATA seq=104 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=126821 time_us=126821869
+[08:30:27.011] uart:~$ [00:02:06.837,707] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=104 from=56992 rtt_ms=9 rtt_us=8728 class=tel
+[08:30:27.223] uart:~$ uart:~$ [00:02:06.873,626] <inf> app: RX: node=44720 type=DATA seq=104 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=126873 time_us=126873444
+[08:30:27.976] uart:~$ uart:~$ [00:02:07.821,838] <inf> app: STORED: node=44720 seq=105 src=44720 class=tel depth=1
+[08:30:28.010] uart:~$ [00:02:07.822,235] <inf> app: TX: node=44720 type=DATA seq=105 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=127821 time_us=127822021
+[08:30:28.011] uart:~$ [00:02:07.837,860] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=105 from=56992 rtt_ms=8 rtt_us=8728 class=tel
+[08:30:28.220] uart:~$ uart:~$ [00:02:07.873,840] <inf> app: RX: node=44720 type=DATA seq=105 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=127873 time_us=127873627
+[08:30:28.976] uart:~$ uart:~$ [00:02:08.822,021] <inf> app: STORED: node=44720 seq=106 src=44720 class=tel depth=1
+[08:30:29.011] uart:~$ [00:02:08.822,418] <inf> app: TX: node=44720 type=DATA seq=106 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=128821 time_us=128822205
+[08:30:29.011] uart:~$ [00:02:08.838,043] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=106 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:30:29.220] uart:~$ uart:~$ [00:02:08.872,985] <inf> app: RX: node=44720 type=DATA seq=106 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=128872 time_us=128872772
+[08:30:29.975] uart:~$ uart:~$ [00:02:09.821,136] <inf> app: STORED: node=44720 seq=107 src=44720 class=tel depth=1
+[08:30:30.010] uart:~$ [00:02:09.821,533] <inf> app: TX: node=44720 type=DATA seq=107 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=129820 time_us=129821350
+[08:30:30.010] uart:~$ [00:02:09.837,188] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=107 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:30:30.213] uart:~$ uart:~$ [00:02:09.873,138] <inf> app: RX: node=44720 type=DATA seq=107 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=129872 time_us=129872925
+[08:30:30.976] uart:~$ uart:~$ [00:02:10.821,319] <inf> app: STORED: node=44720 seq=108 src=44720 class=tel depth=1
+[08:30:31.010] uart:~$ [00:02:10.821,746] <inf> app: TX: node=44720 type=DATA seq=108 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=130821 time_us=130821533
+[08:30:31.010] uart:~$ [00:02:10.837,371] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=108 from=56992 rtt_ms=9 rtt_us=8728 class=tel
+[08:30:31.224] uart:~$ uart:~$ [00:02:10.873,321] <inf> app: RX: node=44720 type=DATA seq=108 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=130873 time_us=130873108
+[08:30:31.979] uart:~$ uart:~$ [00:02:11.821,502] <inf> app: STORED: node=44720 seq=109 src=44720 class=tel depth=1
+[08:30:32.010] uart:~$ [00:02:11.821,899] <inf> app: TX: node=44720 type=DATA seq=109 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=131821 time_us=131821686
+[08:30:32.010] uart:~$ [00:02:11.837,524] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=109 from=56992 rtt_ms=9 rtt_us=8728 class=tel
+[08:30:32.222] uart:~$ uart:~$ [00:02:11.873,504] <inf> app: RX: node=44720 type=DATA seq=109 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=131873 time_us=131873291
+[08:30:32.976] uart:~$ uart:~$ [00:02:12.821,624] <inf> app: STORED: node=44720 seq=110 src=44720 class=tel depth=1
+[08:30:33.011] uart:~$ [00:02:12.822,021] <inf> app: TX: node=44720 type=DATA seq=110 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=132821 time_us=132821838
+[08:30:33.011] uart:~$ [00:02:12.837,646] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=110 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:30:33.216] uart:~$ uart:~$ [00:02:12.873,626] <inf> app: RX: node=44720 type=DATA seq=110 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=132873 time_us=132873413
+[08:30:33.977] uart:~$ uart:~$ [00:02:13.821,807] <inf> app: STORED: node=44720 seq=111 src=44720 class=tel depth=1
+[08:30:34.011] uart:~$ [00:02:13.822,204] <inf> app: TX: node=44720 type=DATA seq=111 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=133821 time_us=133821991
+[08:30:34.011] uart:~$ [00:02:13.837,829] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=111 from=56992 rtt_ms=9 rtt_us=8729 class=tel
+[08:30:34.225] uart:~$ uart:~$ [00:02:13.873,779] <inf> app: RX: node=44720 type=DATA seq=111 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=133873 time_us=133873566
+[08:30:34.976] uart:~$ uart:~$ [00:02:14.821,960] <inf> app: STORED: node=44720 seq=112 src=44720 class=tel depth=1
+[08:30:35.010] uart:~$ [00:02:14.822,387] <inf> app: TX: node=44720 type=DATA seq=112 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=134821 time_us=134822174
+[08:30:35.010] uart:~$ [00:02:14.838,012] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=112 from=56992 rtt_ms=8 rtt_us=8728 class=tel
+[08:30:35.223] uart:~$ uart:~$ [00:02:14.873,016] <inf> app: RX: node=44720 type=DATA seq=112 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=134872 time_us=134872772
+[08:30:35.975] uart:~$ uart:~$ [00:02:15.821,197] <inf> app: STORED: node=44720 seq=113 src=44720 class=tel depth=1
+[08:30:36.010] uart:~$ [00:02:15.821,594] <inf> app: TX: node=44720 type=DATA seq=113 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=135820 time_us=135821411
+[08:30:36.010] uart:~$ [00:02:15.837,219] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=113 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:30:36.210] uart:~$ uart:~$ [00:02:15.873,199] <inf> app: RX: node=44720 type=DATA seq=113 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=135872 time_us=135872986
+[08:30:36.976] uart:~$ uart:~$ [00:02:16.821,319] <inf> app: STORED: node=44720 seq=114 src=44720 class=tel depth=1
+[08:30:37.010] uart:~$ [00:02:16.821,746] <inf> app: TX: node=44720 type=DATA seq=114 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=136821 time_us=136821533
+[08:30:37.010] uart:~$ [00:02:16.837,341] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=114 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:30:37.222] uart:~$ uart:~$ [00:02:16.873,321] <inf> app: RX: node=44720 type=DATA seq=114 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=136873 time_us=136873108
+[08:30:37.976] uart:~$ uart:~$ [00:02:17.821,502] <inf> app: STORED: node=44720 seq=115 src=44720 class=tel depth=1
+[08:30:38.010] uart:~$ [00:02:17.821,899] <inf> app: TX: node=44720 type=DATA seq=115 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=137821 time_us=137821686
+[08:30:38.010] uart:~$ [00:02:17.837,493] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=115 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:30:38.211] uart:~$ uart:~$ [00:02:17.873,474] <inf> app: RX: node=44720 type=DATA seq=115 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=137873 time_us=137873260
+[08:30:38.976] uart:~$ uart:~$ [00:02:18.821,655] <inf> app: STORED: node=44720 seq=116 src=44720 class=tel depth=1
+[08:30:39.010] uart:~$ [00:02:18.822,052] <inf> app: TX: node=44720 type=DATA seq=116 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=138821 time_us=138821838
+[08:30:39.010] uart:~$ [00:02:18.837,646] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=116 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:30:39.211] uart:~$ uart:~$ [00:02:18.873,596] <inf> app: RX: node=44720 type=DATA seq=116 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=138873 time_us=138873383
+[08:30:39.976] uart:~$ uart:~$ [00:02:19.821,777] <inf> app: STORED: node=44720 seq=117 src=44720 class=tel depth=1
+[08:30:40.010] uart:~$ [00:02:19.822,204] <inf> app: TX: node=44720 type=DATA seq=117 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=139821 time_us=139821991
+[08:30:40.011] uart:~$ [00:02:19.837,829] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=117 from=56992 rtt_ms=9 rtt_us=8729 class=tel
+[08:30:40.225] uart:~$ uart:~$ [00:02:19.873,779] <inf> app: RX: node=44720 type=DATA seq=117 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=139873 time_us=139873596
+[08:30:40.976] uart:~$ uart:~$ [00:02:20.821,929] <inf> app: STORED: node=44720 seq=118 src=44720 class=tel depth=1
+[08:30:41.011] uart:~$ [00:02:20.822,357] <inf> app: TX: node=44720 type=DATA seq=118 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=140821 time_us=140822144
+[08:30:41.011] uart:~$ [00:02:20.837,982] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=118 from=56992 rtt_ms=8 rtt_us=8728 class=tel
+[08:30:41.221] uart:~$ uart:~$ [00:02:20.873,962] <inf> app: RX: node=44720 type=DATA seq=118 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=140873 time_us=140873718
+[08:30:41.975] uart:~$ uart:~$ [00:02:21.821,075] <inf> app: STORED: node=44720 seq=119 src=44720 class=tel depth=1
+[08:30:42.009] uart:~$ [00:02:21.821,502] <inf> app: TX: node=44720 type=DATA seq=119 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=141820 time_us=141821289
+[08:30:42.009] uart:~$ [00:02:21.837,097] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=119 from=56992 rtt_ms=8 rtt_us=8697 class=tel
+[08:30:42.216] uart:~$ uart:~$ [00:02:21.872,100] <inf> app: RX: node=44720 type=DATA seq=119 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=141871 time_us=141871887
+[08:30:42.975] uart:~$ uart:~$ [00:02:22.821,258] <inf> app: STORED: node=44720 seq=120 src=44720 class=tel depth=1
+[08:30:43.010] uart:~$ [00:02:22.821,655] <inf> app: TX: node=44720 type=DATA seq=120 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=142821 time_us=142821472
+[08:30:43.010] uart:~$ [00:02:22.837,310] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=120 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:30:43.210] uart:~$ uart:~$ [00:02:22.873,229] <inf> app: RX: node=44720 type=DATA seq=120 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=142872 time_us=142873047
+[08:30:43.977] uart:~$ uart:~$ [00:02:23.821,441] <inf> app: STORED: node=44720 seq=121 src=44720 class=tel depth=1
+[08:30:44.011] uart:~$ [00:02:23.821,838] <inf> app: TX: node=44720 type=DATA seq=121 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=143821 time_us=143821625
+[08:30:44.011] uart:~$ [00:02:23.837,463] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=121 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:30:44.222] uart:~$ uart:~$ [00:02:23.873,413] <inf> app: RX: node=44720 type=DATA seq=121 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=143873 time_us=143873230
+[08:30:44.976] uart:~$ uart:~$ [00:02:24.821,594] <inf> app: STORED: node=44720 seq=122 src=44720 class=tel depth=1
+[08:30:45.010] uart:~$ [00:02:24.821,990] <inf> app: TX: node=44720 type=DATA seq=122 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=144821 time_us=144821777
+[08:30:45.010] uart:~$ [00:02:24.837,585] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=122 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:30:45.212] uart:~$ uart:~$ [00:02:24.873,565] <inf> app: RX: node=44720 type=DATA seq=122 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=144873 time_us=144873352
+[08:30:45.977] uart:~$ uart:~$ [00:02:25.821,746] <inf> app: STORED: node=44720 seq=123 src=44720 class=tel depth=1
+[08:30:46.010] uart:~$ [00:02:25.822,143] <inf> app: TX: node=44720 type=DATA seq=123 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=145821 time_us=145821930
+[08:30:46.011] uart:~$ [00:02:25.837,768] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=123 from=56992 rtt_ms=9 rtt_us=8728 class=tel
+[08:30:46.222] uart:~$ uart:~$ [00:02:25.873,718] <inf> app: RX: node=44720 type=DATA seq=123 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=145873 time_us=145873505
+[08:30:46.976] uart:~$ uart:~$ [00:02:26.821,868] <inf> app: STORED: node=44720 seq=124 src=44720 class=tel depth=1
+[08:30:47.011] uart:~$ [00:02:26.822,265] <inf> app: TX: node=44720 type=DATA seq=124 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=146821 time_us=146822083
+[08:30:47.011] uart:~$ [00:02:26.837,890] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=124 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:30:47.221] uart:~$ uart:~$ [00:02:26.873,840] <inf> app: RX: node=44720 type=DATA seq=124 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=146873 time_us=146873657
+[08:30:47.976] uart:~$ uart:~$ [00:02:27.822,052] <inf> app: STORED: node=44720 seq=125 src=44720 class=tel depth=1
+[08:30:48.011] uart:~$ [00:02:27.822,448] <inf> app: TX: node=44720 type=DATA seq=125 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=147821 time_us=147822266
+[08:30:48.011] uart:~$ [00:02:27.838,073] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=125 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:30:48.224] uart:~$ uart:~$ [00:02:27.873,077] <inf> app: RX: node=44720 type=DATA seq=125 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=147872 time_us=147872864
+[08:30:48.979] uart:~$ uart:~$ [00:02:28.821,228] <inf> app: STORED: node=44720 seq=126 src=44720 class=tel depth=1
+[08:30:49.010] uart:~$ [00:02:28.821,655] <inf> app: TX: node=44720 type=DATA seq=126 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=148821 time_us=148821442
+[08:30:49.010] uart:~$ [00:02:28.837,249] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=126 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:30:49.221] uart:~$ uart:~$ [00:02:28.873,229] <inf> app: RX: node=44720 type=DATA seq=126 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=148872 time_us=148873016
+[08:30:49.976] uart:~$ uart:~$ [00:02:29.821,411] <inf> app: STORED: node=44720 seq=127 src=44720 class=tel depth=1
+[08:30:50.010] uart:~$ [00:02:29.821,807] <inf> app: TX: node=44720 type=DATA seq=127 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=149821 time_us=149821625
+[08:30:50.010] uart:~$ [00:02:29.837,432] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=127 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:30:50.212] uart:~$ uart:~$ [00:02:29.873,413] <inf> app: RX: node=44720 type=DATA seq=127 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=149873 time_us=149873199
+[08:30:50.977] uart:~$ uart:~$ [00:02:30.821,594] <inf> app: STORED: node=44720 seq=128 src=44720 class=tel depth=1
+[08:30:51.010] uart:~$ [00:02:30.821,990] <inf> app: TX: node=44720 type=DATA seq=128 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=150821 time_us=150821777
+[08:30:51.010] uart:~$ [00:02:30.837,615] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=128 from=56992 rtt_ms=9 rtt_us=8728 class=tel
+[08:30:51.221] uart:~$ uart:~$ [00:02:30.873,565] <inf> app: RX: node=44720 type=DATA seq=128 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=150873 time_us=150873352
+[08:30:51.975] uart:~$ uart:~$ [00:02:31.821,716] <inf> app: STORED: node=44720 seq=129 src=44720 class=tel depth=1
+[08:30:52.010] uart:~$ [00:02:31.822,143] <inf> app: TX: node=44720 type=DATA seq=129 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=151821 time_us=151821930
+[08:30:52.010] uart:~$ [00:02:31.837,738] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=129 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:30:52.214] uart:~$ uart:~$ [00:02:31.873,718] <inf> app: RX: node=44720 type=DATA seq=129 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=151873 time_us=151873505
+[08:30:52.976] uart:~$ uart:~$ [00:02:32.821,838] <inf> app: STORED: node=44720 seq=130 src=44720 class=tel depth=1
+[08:30:53.010] uart:~$ [00:02:32.822,265] <inf> app: TX: node=44720 type=DATA seq=130 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=152821 time_us=152822052
+[08:30:53.011] uart:~$ [00:02:32.837,890] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=130 from=56992 rtt_ms=8 rtt_us=8728 class=tel
+[08:30:53.221] uart:~$ uart:~$ [00:02:32.873,870] <inf> app: RX: node=44720 type=DATA seq=130 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=152873 time_us=152873627
+[08:30:53.976] uart:~$ uart:~$ [00:02:33.822,021] <inf> app: STORED: node=44720 seq=131 src=44720 class=tel depth=1
+[08:30:54.010] uart:~$ [00:02:33.822,448] <inf> app: TX: node=44720 type=DATA seq=131 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=153821 time_us=153822235
+[08:30:54.010] uart:~$ [00:02:33.838,073] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=131 from=56992 rtt_ms=8 rtt_us=8728 class=tel
+[08:30:54.218] uart:~$ uart:~$ [00:02:33.873,046] <inf> app: RX: node=44720 type=DATA seq=131 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=153872 time_us=153872833
+[08:30:54.976] uart:~$ uart:~$ [00:02:34.821,197] <inf> app: STORED: node=44720 seq=132 src=44720 class=tel depth=1
+[08:30:55.010] uart:~$ [00:02:34.821,594] <inf> app: TX: node=44720 type=DATA seq=132 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=154820 time_us=154821411
+[08:30:55.010] uart:~$ [00:02:34.837,219] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=132 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:30:55.213] uart:~$ uart:~$ [00:02:34.873,168] <inf> app: RX: node=44720 type=DATA seq=132 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=154872 time_us=154872955
+[08:30:55.976] uart:~$ uart:~$ [00:02:35.821,380] <inf> app: STORED: node=44720 seq=133 src=44720 class=tel depth=1
+[08:30:56.010] uart:~$ [00:02:35.821,777] <inf> app: TX: node=44720 type=DATA seq=133 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=155821 time_us=155821564
+[08:30:56.010] uart:~$ [00:02:35.837,371] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=133 from=56992 rtt_ms=9 rtt_us=8698 class=tel
+[08:30:56.224] uart:~$ uart:~$ [00:02:35.873,352] <inf> app: RX: node=44720 type=DATA seq=133 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=155873 time_us=155873138
+[08:30:56.975] uart:~$ uart:~$ [00:02:36.821,533] <inf> app: STORED: node=44720 seq=134 src=44720 class=tel depth=1
+[08:30:57.010] uart:~$ [00:02:36.821,929] <inf> app: TX: node=44720 type=DATA seq=134 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=156821 time_us=156821716
+[08:30:57.010] uart:~$ [00:02:36.837,524] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=134 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:30:57.221] uart:~$ uart:~$ [00:02:36.873,504] <inf> app: RX: node=44720 type=DATA seq=134 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=156873 time_us=156873260
+[08:30:57.976] uart:~$ uart:~$ [00:02:37.821,655] <inf> app: STORED: node=44720 seq=135 src=44720 class=tel depth=1
+[08:30:58.010] uart:~$ [00:02:37.822,082] <inf> app: TX: node=44720 type=DATA seq=135 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=157821 time_us=157821869
+[08:30:58.010] uart:~$ [00:02:37.837,707] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=135 from=56992 rtt_ms=9 rtt_us=8728 class=tel
+[08:30:58.217] uart:~$ uart:~$ [00:02:37.873,657] <inf> app: RX: node=44720 type=DATA seq=135 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=157873 time_us=157873444
+[08:30:58.976] uart:~$ uart:~$ [00:02:38.821,807] <inf> app: STORED: node=44720 seq=136 src=44720 class=tel depth=1
+[08:30:59.013] uart:~$ [00:02:38.822,204] <inf> app: TX: node=44720 type=DATA seq=136 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=158821 time_us=158822021
+[08:30:59.013] uart:~$ [00:02:38.837,829] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=136 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:30:59.227] uart:~$ uart:~$ [00:02:38.873,779] <inf> app: RX: node=44720 type=DATA seq=136 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=158873 time_us=158873566
+[08:30:59.976] uart:~$ uart:~$ [00:02:39.821,960] <inf> app: STORED: node=44720 seq=137 src=44720 class=tel depth=1
+[08:31:00.011] uart:~$ [00:02:39.822,357] <inf> app: TX: node=44720 type=DATA seq=137 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=159821 time_us=159822144
+[08:31:00.011] uart:~$ [00:02:39.837,982] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=137 from=56992 rtt_ms=8 rtt_us=8728 class=tel
+[08:31:00.213] uart:~$ uart:~$ [00:02:39.873,962] <inf> app: RX: node=44720 type=DATA seq=137 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=159873 time_us=159873749
+[08:31:00.977] uart:~$ uart:~$ [00:02:40.821,075] <inf> app: STORED: node=44720 seq=138 src=44720 class=tel depth=1
+[08:31:01.011] uart:~$ [00:02:40.821,472] <inf> app: TX: node=44720 type=DATA seq=138 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=160820 time_us=160821289
+[08:31:01.011] uart:~$ [00:02:40.837,097] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=138 from=56992 rtt_ms=8 rtt_us=8697 class=tel
+[08:31:01.214] uart:~$ uart:~$ [00:02:40.872,070] <inf> app: RX: node=44720 type=DATA seq=138 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=160871 time_us=160871857
+[08:31:01.976] uart:~$ uart:~$ [00:02:41.821,228] <inf> app: STORED: node=44720 seq=139 src=44720 class=tel depth=1
+[08:31:02.010] uart:~$ [00:02:41.821,655] <inf> app: TX: node=44720 type=DATA seq=139 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=161821 time_us=161821442
+[08:31:02.010] uart:~$ [00:02:41.837,280] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=139 from=56992 rtt_ms=9 rtt_us=8728 class=tel
+[08:31:02.213] uart:~$ uart:~$ [00:02:41.873,229] <inf> app: RX: node=44720 type=DATA seq=139 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=161872 time_us=161873016
+[08:31:02.977] uart:~$ uart:~$ [00:02:42.821,380] <inf> app: STORED: node=44720 seq=140 src=44720 class=tel depth=1
+[08:31:03.010] uart:~$ [00:02:42.821,777] <inf> app: TX: node=44720 type=DATA seq=140 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=162821 time_us=162821594
+[08:31:03.010] uart:~$ [00:02:42.837,402] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=140 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:31:03.222] uart:~$ uart:~$ [00:02:42.873,352] <inf> app: RX: node=44720 type=DATA seq=140 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=162873 time_us=162873169
+[08:31:03.976] uart:~$ uart:~$ [00:02:43.821,563] <inf> app: STORED: node=44720 seq=141 src=44720 class=tel depth=1
+[08:31:04.010] uart:~$ [00:02:43.821,960] <inf> app: TX: node=44720 type=DATA seq=141 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=163821 time_us=163821747
+[08:31:04.010] uart:~$ [00:02:43.837,585] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=141 from=56992 rtt_ms=9 rtt_us=8728 class=tel
+[08:31:04.212] uart:~$ uart:~$ [00:02:43.873,565] <inf> app: RX: node=44720 type=DATA seq=141 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=163873 time_us=163873352
+[08:31:04.976] uart:~$ uart:~$ [00:02:44.821,685] <inf> app: STORED: node=44720 seq=142 src=44720 class=tel depth=1
+[08:31:05.010] uart:~$ [00:02:44.822,082] <inf> app: TX: node=44720 type=DATA seq=142 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=164821 time_us=164821899
+[08:31:05.010] uart:~$ [00:02:44.837,707] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=142 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:31:05.221] uart:~$ uart:~$ [00:02:44.873,687] <inf> app: RX: node=44720 type=DATA seq=142 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=164873 time_us=164873444
+[08:31:05.977] uart:~$ uart:~$ [00:02:45.821,807] <inf> app: STORED: node=44720 seq=143 src=44720 class=tel depth=1
+[08:31:06.010] uart:~$ [00:02:45.822,235] <inf> app: TX: node=44720 type=DATA seq=143 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=165821 time_us=165822021
+[08:31:06.010] uart:~$ [00:02:45.837,829] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=143 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:31:06.214] uart:~$ uart:~$ [00:02:45.873,779] <inf> app: RX: node=44720 type=DATA seq=143 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=165873 time_us=165873566
+[08:31:06.976] uart:~$ uart:~$ [00:02:46.822,021] <inf> app: STORED: node=44720 seq=144 src=44720 class=tel depth=1
+[08:31:07.010] uart:~$ [00:02:46.822,418] <inf> app: TX: node=44720 type=DATA seq=144 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=166821 time_us=166822205
+[08:31:07.010] uart:~$ [00:02:46.838,012] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=144 from=56992 rtt_ms=8 rtt_us=8698 class=tel
+[08:31:07.217] uart:~$ uart:~$ [00:02:46.873,046] <inf> app: RX: node=44720 type=DATA seq=144 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=166872 time_us=166872803
+[08:31:07.978] uart:~$ uart:~$ [00:02:47.821,228] <inf> app: STORED: node=44720 seq=145 src=44720 class=tel depth=1
+[08:31:08.010] uart:~$ [00:02:47.821,624] <inf> app: TX: node=44720 type=DATA seq=145 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=167820 time_us=167821411
+[08:31:08.010] uart:~$ [00:02:47.837,249] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=145 from=56992 rtt_ms=9 rtt_us=8728 class=tel
+[08:31:08.212] uart:~$ uart:~$ [00:02:47.873,260] <inf> app: RX: node=44720 type=DATA seq=145 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=167873 time_us=167873047
+[08:31:08.975] uart:~$ uart:~$ [00:02:48.821,441] <inf> app: STORED: node=44720 seq=146 src=44720 class=tel depth=1
+[08:31:09.010] uart:~$ [00:02:48.821,838] <inf> app: TX: node=44720 type=DATA seq=146 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=168821 time_us=168821625
+[08:31:09.010] uart:~$ [00:02:48.837,463] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=146 from=56992 rtt_ms=9 rtt_us=8728 class=tel
+[08:31:09.224] uart:~$ uart:~$ [00:02:48.873,443] <inf> app: RX: node=44720 type=DATA seq=146 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=168873 time_us=168873199
+[08:31:09.976] uart:~$ uart:~$ [00:02:49.821,563] <inf> app: STORED: node=44720 seq=147 src=44720 class=tel depth=1
+[08:31:10.010] uart:~$ [00:02:49.821,960] <inf> app: TX: node=44720 type=DATA seq=147 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=169821 time_us=169821777
+[08:31:10.010] uart:~$ [00:02:49.837,585] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=147 from=56992 rtt_ms=9 rtt_us=8697 class=tel
+[08:31:10.224] uart:~$ uart:~$ [00:02:49.873,565] <inf> app: RX: node=44720 type=DATA seq=147 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=169873 time_us=169873352
+[08:31:10.975] uart:~$ uart:~$ [00:02:50.821,746] <inf> app: STORED: node=44720 seq=148 src=44720 class=tel depth=1
+[08:31:11.010] uart:~$ [00:02:50.822,143] <inf> app: TX: node=44720 type=DATA seq=148 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=170821 time_us=170821930
+[08:31:11.010] uart:~$ [00:02:50.837,768] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=148 from=56992 rtt_ms=9 rtt_us=8728 class=tel
+[08:31:11.223] uart:~$ uart:~$ [00:02:50.873,718] <inf> app: RX: node=44720 type=DATA seq=148 src=44720 dst=14402 prev=56992 next=14402 hop=1 ttl=4 rssi=-29.0 class=tel epoch=23005 time=170873 time_us=170873505
+[08:31:11.977] uart:~$ uart:~$ [00:02:51.821,899] <inf> app: STORED: node=44720 seq=149 src=44720 class=tel depth=1
+[08:31:11.999] uart:~$ [00:02:51.822,296] <inf> app: TX: node=44720 type=DATA seq=149 src=44720 dst=14402 prev=44720 next=56992 hop=0 ttl=5 class=tel epoch=23005 retx=0 time=171821 time_us=171822083
+[08:31:11.999] uart:~$ [00:02:51.837,921] <inf> app: ACK_RX: node=44720 status=ACCEPTED seq=149 from=56992 rtt_ms=8 rtt_us=8728 class=tel
+[08:31:12.026] uart:~$ [00:02:51.838,073] <inf> app: STOP: node=44720 reason=count_reached time=171837 time_us=171837952
+[08:31:12.240] uart:~$ [00:02:51.838,348] <inf> app: SUMMARY: node=44720 role=source generated=150 delivered=0 stored=150 drained=150 dropped_overflow=0 dropped_expired=0 dropped_ttl=0 dropped_flushed=0 rejected_at_source=0 rejected_full=0 still_stored=0 in_flight=0 retries=0 dup_rx=0 rx_gap
+[08:31:43.646] >>> exp stop
+[08:31:43.787] uart:~$ uart:~$ uart:~$ exp stop
+[08:31:43.787] not running
+[08:31:50.243] >>> exp status
+[08:31:50.365] uart:~$ exp status
+[08:31:50.365] node=44720 role=source running=0 epoch=23005 proto=1
+[08:31:50.365] dest=14402 size=16 ttl=5 power=1 mcs=0 interval=1000 count=0 hello=2000
+[08:31:50.365] generated=150 delivered=0 stored=150 drained=150 depth=0 peak=1 in_flight=0
+[08:31:50.568] retries=0 dup_rx=0 rx_gap=0 bad=0 stale_ack=155 rejected_src=0 rejected_full=0
+[08:31:50.568] drop_overflow=0 drop_expired=0 drop_ttl=0 drop_flush=0
+[08:31:50.568] rx_queue_drop=0 autostart=0 profile=0 carrier=1711

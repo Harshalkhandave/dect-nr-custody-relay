@@ -1,0 +1,91 @@
+{
+  "run_id": "E1_custody_D330_r02",
+  "status": "ok",
+  "custody": true,
+  "count": 450,
+  "outage_s": 330,
+  "sent_unique": 450,
+  "delivered_unique": 400,
+  "lost_count": 0,
+  "unique_pdr": 1.0,
+  "duplicate_deliveries": 0,
+  "detection_s": 1.189,
+  "reup_s": 0.649,
+  "detection_dev_s": 1.023,
+  "reup_dev_s": 0.477,
+  "rtt_ms_source": {
+    "n": 450,
+    "median": 9.0,
+    "p95": 9.0,
+    "max": 200.0
+  },
+  "rtt_ms_relay": {
+    "n": 450,
+    "median": 15.0,
+    "p95": 16.0,
+    "max": 16.0
+  },
+  "retry_lines": {
+    "source": 14,
+    "relay": 28
+  },
+  "relay_queue_full_nacks": 20,
+  "source_peak_depth": 47,
+  "relay_peak_depth": 288,
+  "error_lines": {
+    "sink": [
+      "uart:~$ --- 2 messages dropped ---",
+      "uart:~$ --- 3 messages dropped ---",
+      "uart:~$ --- 3 messages dropped ---",
+      "uart:~$ --- 2 messages dropped ---",
+      "uart:~$ --- 3 messages dropped ---"
+    ]
+  },
+  "lost_in_outage_window": null,
+  "lost_outside_outage_window": null,
+  "baseline_loss_rate_outside_outage": null,
+  "open_loop_loss_vs_expected": null,
+  "clock_offset_fit": {
+    "pairs": 395,
+    "drift_us_per_s": -2.5,
+    "resid_sd_ms": 3.0
+  },
+  "mode": "custody",
+  "gaps": {
+    "relay": 5,
+    "source": 35
+  },
+  "extra": {},
+  "git": "e4621dd3c6e6e4457596b9756eade6cbf3222e92",
+  "counter_sink_delivered_sum": 450,
+  "counter_source_generated": 450,
+  "counter_vs_log_sink": [
+    450,
+    400
+  ],
+  "log_lossy": true,
+  "pdr_counter_based": 1.0,
+  "pdr_log": 0.8889,
+  "lost_log": 50,
+  "down_events": 8,
+  "up_events": 2,
+  "relay_link_down_events": 8,
+  "acks_during_drain": 295,
+  "relay_peak_pending": 288,
+  "first_queue_full_us": 342664093,
+  "B_at_up": 288,
+  "drain_s": 9.251,
+  "mu_pkt_s": 31.89,
+  "T_d_pred_s": 9.324,
+  "arrivals_in_drain": 7,
+  "mu_cycle_pkt_s": 35.39,
+  "T_d_pred_cycle_s": 8.375,
+  "penalty_per_arrival_s": 0.125,
+  "T_d_error_pct": 0.8,
+  "T_d_error_cycle_pct": -9.5,
+  "flags": [
+    "error_lines",
+    "log_lossy",
+    "log_loss"
+  ]
+}

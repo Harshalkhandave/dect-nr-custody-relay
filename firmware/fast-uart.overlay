@@ -1,0 +1,9 @@
+/*
+ * Optional: console, shell and log UART at 460800 baud instead of 115200.
+ * Use when the relay drains a backlog faster than the log can be sent.
+ * Build with -DEXTRA_DTC_OVERLAY_FILE=fast-uart.overlay and run the logger
+ * with --baud 460800. Untested on the Stratus Pro USB-serial bridge.
+ */
+&uart0 {
+	current-speed = <460800>;
+};
